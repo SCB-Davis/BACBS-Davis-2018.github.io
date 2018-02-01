@@ -1,14 +1,11 @@
 ---
-title: "index"
-author: "Martha Wohlfeil"
-date: "January 31, 2018"
-output: html_document
+output: 
+  html_document:
+    theme: minty
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+![](pics/scb.png) ![](pics/flowers.JPG)
 
-This is a conference hosted by UC Davis. Yahoo. 
-
-Test test
+<center>#2018 Bay Area Conservation Biology Symposium 
+<center>##Hosted by University of California, Davis SCB Chapter
+<center>##March 12th 2018

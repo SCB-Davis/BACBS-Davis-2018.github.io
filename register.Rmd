@@ -1,8 +1,6 @@
 ---
-title: "register"
-author: "Martha Wohlfeil"
-date: "January 31, 2018"
 output: html_document
+  theme: minty
 ---
 
 ```{r setup, include=FALSE}
