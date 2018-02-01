@@ -1,0 +1,9 @@
+name: "scb-conference website"
+output_dir: "."
+navbar:
+  title: "Bay Area Conservation Biology Symposium 2018"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Register"
+      href: register.html
