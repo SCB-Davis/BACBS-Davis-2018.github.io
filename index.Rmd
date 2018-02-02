@@ -1,11 +1,13 @@
 ---
-output: 
-  html_document:
-    theme: minty
+title: "2018 Bay Area Conservaion Biology Symposium"
+output:
+  html_pretty:
+    theme: cayman
 ---
 
-![](pics/scb.png) ![](pics/flowers.JPG)
+<img src="pics/banner.jpg" style="width:150%">
 
 <center>#2018 Bay Area Conservation Biology Symposium 
+***
 <center>##Hosted by University of California, Davis SCB Chapter
-<center>##March 12th 2018
+<center>##March 12th, 2018

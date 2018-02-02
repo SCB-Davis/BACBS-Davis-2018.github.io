@@ -7,4 +7,8 @@ navbar:
       href: index.html
     - text: "Register"
       href: register.html
+  right:
+    - text: "Contact"
+      href: contact.html
+      
 

@@ -1,0 +1,7 @@
+---
+output: 
+  html_document:
+    theme: flatly 
+---
+
+For questions, please contact scb.davis@ucdavis.edu (or whatever the email is)

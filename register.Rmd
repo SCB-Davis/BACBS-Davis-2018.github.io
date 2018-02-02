@@ -1,6 +1,7 @@
 ---
-output: html_document
-  theme: minty
+output: 
+  html_document:
+    theme: flatly
 ---
 
 ```{r setup, include=FALSE}
