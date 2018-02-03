@@ -1,13 +1,16 @@
 ---
-title: "2018 Bay Area Conservaion Biology Symposium"
-output:
-  html_pretty:
-    theme: cayman
+output: 
+  html_document:
+    theme: flatly
 ---
+<br>
 
-<img src="pics/banner.jpg" style="width:150%">
+<center>#**2018 Bay Area Conservation Biology Symposium**
 
-<center>#2018 Bay Area Conservation Biology Symposium 
+<center>![](pics/scb.png)
+
+<center>##**Hosted by University of California, Davis SCB Chapter**
+<center>##**March 12th, 2018**
 ***
-<center>##Hosted by University of California, Davis SCB Chapter
-<center>##March 12th, 2018
+###Welcome...we are pleased to announced that the 8th (?) annual SCB conference will be hosed by the university of california daivs Stuff. Its located here, use this site to register, see the scheduel. IT will be updated as abstracts are summited and speakers are finalized. 
+<center>![](pics/flowers.JPG)

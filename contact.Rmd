@@ -3,5 +3,18 @@ output:
   html_document:
     theme: flatly 
 ---
+<br>
 
-For questions, please contact scb.davis@ucdavis.edu (or whatever the email is)
+##For questions, please contact scb.davis@ucdavis.edu (or whatever the email is)
+
+***
+
+##**Meet our team!**
+
+<img src="pics/ken.jpg" style="width:20%">
+
+>Ken Zillig is a third year PhD student at UC Davis and the PRESIDENT OF SCB **ALL HAIL**. 
+
+<img src="pics/amy.jpg" style="width:20%">
+
+>Amy Collins is a third year PhD student at UC Davis and the Vice President of SCB. She's also *english*. 

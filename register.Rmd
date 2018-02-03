@@ -3,11 +3,10 @@ output:
   html_document:
     theme: flatly
 ---
+<br> 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+![](pics/hotairballoons.JPG)
 
-*Submit your abstract!
+* ##Please click this link to register for attendance. Attendance is free!
 
-*Register for the conference!
+* ##Please click this link to submit an abstract for a talk or poster 
