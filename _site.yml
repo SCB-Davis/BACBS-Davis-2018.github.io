@@ -6,7 +6,15 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Register"
-      href: register.html
+      menu:
+        - text: "Register for Conference"
+          href: register.html
+        - text: "Art Contest"
+          href: art.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Getting to Davis"
+      href: directions.html
   right:
     - text: "Contact"
       href: contact.html
