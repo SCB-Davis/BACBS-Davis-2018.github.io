@@ -14,9 +14,13 @@ navbar:
     - text: "Schedule"
       href: schedule.html
     - text: "Getting to Davis"
+      icon: "fas fa-car"
       href: directions.html
   right:
     - text: "Contact"
+      icon: "fas fa-address-book"
       href: contact.html
+      
+      
       
 

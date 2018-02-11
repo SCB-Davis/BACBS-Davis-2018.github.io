@@ -3,8 +3,31 @@ output:
   html_document:
     theme: flatly
 ---
-
-##Keynote Speaker:
-
+<br>
 
 ##This page will be updated as submissions for posters and talks are recieved. 
+
+***
+
+##**Keynote Speaker: Dr. Ellie Cohen** 
+
+
+***
+###**Tentative Schedule:**
+
+9:00 - 9:30  Breakfast and Welcome (Breakfast and Coffee provided by Noah's Bagels)
+
+9:30 - 12:00 Session 1 + 2 
+
+12:00 - 1:00 Lunch (Provided by Dos Coyotes Mexican - vegan and veggie options available)
+
+1:00 - 2:00  Keynote Speaker Dr. Ellie Cohen 
+
+2:00 - 3:30  Session 3 + 4
+
+3:30 - 4:00  Break
+
+4:00 - 5:00  Pannel Discussion: Barriers to Conservation 
+
+5:30 - ??    Happy/Social Hour at [Sudwerks Brewery](http://sudwerkbrew.com/) 
+

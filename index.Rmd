@@ -14,9 +14,10 @@ output:
 <center>##**May 12th, 2018**
 <center>##**Geidt Hall, UC Davis Campus**
 ***
-###Welcome! We are pleased to announce that this years annual Bay Area Conservation Biology Symposium will be hosted
-###by the University of California Davis, with keynote speaker Dr. Ellie M. Cohen. 
+###Welcome! We are pleased to announce that this years annual Bay Area Conservation Biology Symposium will be hosted by the University of California Davis, with keynote speaker [Dr. Ellie M. Cohen](http://www.pointblue.org/about-pointblue/our-team/president-ceo/) of Point Blue Conservation Science. 
+
 <br>
-Please join us on May 12th 2018 for our conference themed "Overcoming Barriers to Conservation." Please use this site to register, submit you abstracts, and submit art entries, as in addition to both poster and presentation sessions, we will also have an art competition where attendies are welcome to submit their art (see the registration tab for more information). 
+
+####Please join us on May 12th 2018 for our conference themed "Overcoming Barriers to Conservation." Please use this site to register, submit you abstracts, and submit art entries, as in addition to both poster and presentation sessions, we will also have an art competition where attendies are welcome to submit their art (see the registration tab for more information). 
 
 <center>![](pics/flowers.JPG)
