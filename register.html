@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,12 +30,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -235,6 +233,23 @@ $(document).ready(function () {
 <p><br></p>
 <div id="this-page-is-under-construction.-please-check-back-at-the-beginning-of-march-to-register" class="section level2">
 <h2>This page is under construction. Please check back at the beginning of March to register!</h2>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSdWwx2QywnGMzaEpCtFDhu_dEQZdNYDuH7REOQLMFKSsPuQ/viewform?usp=pp_url&amp;entry.763057343=Test&amp;entry.249503504=Name" class="uri">https://docs.google.com/forms/d/e/1FAIpQLSdSdWwx2QywnGMzaEpCtFDhu_dEQZdNYDuH7REOQLMFKSsPuQ/viewform?usp=pp_url&amp;entry.763057343=Test&amp;entry.249503504=Name</a></p>
+<form>
+First name:<br> <input type="text" name="firstname"><br> Last name:<br> <input type="text" name="lastname"> <input type="submit" value="Submit">
+</form>
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdSdWwx2QywnGMzaEpCtFDhu_dEQZdNYDuH7REOQLMFKSsPuQ/viewform?" target="hidden_iframe" onsubmit="submitted=true;">
+First name:<br> <input type="text" name="entry.763057343" id="entry.763057343"><br> Last name:<br> <input type="text" name="entry.249503504" id="entry.249503504"> <input type="submit" value="Submit">
+</form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}">
+</iframe>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
 </div>
 
 
