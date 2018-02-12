@@ -11,15 +11,13 @@ output:
 
 ##This page is under construction. Please check back at the beginning of March to register! 
 
-https://docs.google.com/forms/d/e/1FAIpQLSdSdWwx2QywnGMzaEpCtFDhu_dEQZdNYDuH7REOQLMFKSsPuQ/viewform?usp=pp_url&entry.763057343=First+Name&entry.249503504=Last+Name&entry.789128360=Email+Address&entry.1402407729=Presentation+Title&entry.1103035403=Abstract&entry.1669133587=Art+Submissions
-
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdSdWwx2QywnGMzaEpCtFDhu_dEQZdNYDuH7REOQLMFKSsPuQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  <input type="text" name="entry.763057343" id="entry.763057343", placeholder="First Name" required><br>
-  <input type="text" name="entry.249503504" id="entry.249503504", placeholder="Last Name" required><br>
-  <input type="email" name="entry.789128360" id="entry.789128360", placeholder="Email Address" required><br>
-  <input type="text" name="entry.1402407729" id="entry.1402407729", placeholder="Presentation Title (Only if submitting talk)"><br>
-  <textarea rows="10" cols="40" name="entry.1103035403" id="entry.1103035403", placeholder="Abstract (Only if submitting talk)"></textarea><br>
-  <input type="text" name="entry.1669133587" id="entry.1669133587", placeholder="Art Submission (Not Required)"><br>
+  <input type="text" name="entry.763057343" id="entry.763057343" placeholder="First Name" size="50" required>
+  <input type="text" name="entry.249503504" id="entry.249503504" placeholder="Last Name" size="50" required><br><br>
+  <input type="email" name="entry.789128360" id="entry.789128360" size="50" placeholder="Email Address" required><br><br>
+  <input type="text" name="entry.1402407729" id="entry.1402407729" size="80" placeholder="Presentation Title (Only if submitting talk)"><br><br>
+  <textarea rows="15" cols="100" name="entry.1103035403" id="entry.1103035403" placeholder="Abstract (Only if submitting talk)"></textarea><br><br>
+  <input type="text" name="entry.1669133587" id="entry.1669133587" size="80" placeholder="Art Submission (Not Required)"><br><br>
   <input type="submit" value="Submit">
 </form>
 
