@@ -8,7 +8,7 @@ output:
 <center>#**2018 Bay Area Conservation Biology Symposium**
 <center>#*Overcoming Barriers to Conservation*
 
-<center>![](pics/scb.png)
+<center><img src="pics/logo.png" style="width:25%"> 
 
 <center>##**Hosted by University of California, Davis SCB Chapter**
 <center>##**May 12th, 2018**

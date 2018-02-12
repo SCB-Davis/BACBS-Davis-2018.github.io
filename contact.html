@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -230,15 +232,27 @@ $(document).ready(function () {
 <h2><strong>For questions, please contact <a href="mailto:scbdavis@gmail.com">scbdavis@gmail.com</a></strong></h2>
 <hr />
 </div>
-<div id="meet-our-team" class="section level2">
-<h2><strong>Meet our team!</strong></h2>
-<p><img src="pics/ken.JPG" style="width:20%"></p>
+<div id="meet-our-conference-team" class="section level2">
+<h2><strong>Meet our Conference team!</strong></h2>
+<p><img src="pics/ken2.PNG" style="width:20%"></p>
 <blockquote>
-<p>Ken Zillig is a third year PhD student at UC Davis and the PRESIDENT OF SCB <strong>ALL HAIL</strong>.</p>
+<p><strong>Ken Zillig: SCB Davis President</strong> Ken is a 3rd year graduate student in the Graduate Group in Ecology. His research focuses on understanding the thermal tolerances and physiology of Californian salmon and sturgeon species. He is interested in how these physiological criteria influence fish ecology as well as how conservation and fisheries management strategies can be informed by temperature data. Additionally, he is interested in topics of adaptation vs. acclimation and how these processes are preparing native at-risk fish species to the challenges of climate change and increasing water demand by people.</p>
 </blockquote>
 <p><img src="pics/amy.jpg" style="width:20%"></p>
 <blockquote>
-<p>Amy Collins is a third year PhD student at UC Davis and the Vice President of SCB. She’s also <em>english</em>.</p>
+<p><strong>Amy Collins: SCB Davis Vice President</strong> Amy is a third year PhD student in the department of Wildlife, Fish and Conservation Biology. She is interested in using remote sensing methods to monitor habitat fragmentation on the island of Pemba, Tanzania. She is also researching the impacts of roads on wildlife connectivity in California. Originally from the UK, Amy’s previous work includes collaborating with WWF and the Zoological Society of London to assess the characteristics of successful species recovery programs.</p>
+</blockquote>
+<p><img src="pics/emile.jpg" style="width:20%"></p>
+<blockquote>
+<p><strong>Emilie Graves: SCB Davis Secretary</strong> Emilie is a 3rd-year PhD student in the Graduate Group in Ecology studying the effects of agricultural pesticides on grassland birds and the conservation management of the Tricolored Blackbird, with an interest in advocating for science-based policy.</p>
+</blockquote>
+<p><img src="pics/ann.PNG" style="width:20%"></p>
+<blockquote>
+<p><strong>Ann Holmes: SCB Davis Treasurer</strong> Ann is a second year PhD student in Ecology. She studies fish and other aquatic organisms using genetic tools. Her research centers on conservation and management questions. In UCD’s Genomic Variation Lab, she is developing an environmental DNA (eDNA) protocol to monitor delta smelt, an endangered fish in the San Francisco Estuary. <a href="http://gvl.ucdavis.edu/people/ann-holmes/" class="uri">http://gvl.ucdavis.edu/people/ann-holmes/</a></p>
+</blockquote>
+<p><img src="pics/andrea.PNG" style="width:20%"></p>
+<blockquote>
+<p><strong>Andrea Schreier: SCB Davis Faculty Advisor</strong> Andrea Schreier is an Adjunct Assistant Professor in the Department of Animal Science at UC Davis. Her lab uses genetic and genomic tools to answer ecological questions that directly influence the conservation and management of fish and wildlife species. This majority of this research is conducted collaboratively with state, federal, and tribal management agencies and NGOs, providing students and postdocs with opportunities to work directly with conservation practitioners.</p>
 </blockquote>
 </div>
 
