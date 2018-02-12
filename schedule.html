@@ -19,9 +19,12 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -161,6 +166,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -226,15 +326,23 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<div id="this-page-will-be-updated-as-submissions-for-posters-and-talks-are-recieved." class="section level2">
-<h2>This page will be updated as submissions for posters and talks are recieved.</h2>
+<div id="this-page-will-be-updated-as-submissions-for-posters-and-talks-are-recieved." class="section level3">
+<h3>This page will be updated as submissions for posters and talks are recieved.</h3>
 <hr />
 </div>
 <div id="keynote-speaker-dr.ellie-cohen" class="section level2">
 <h2><strong>Keynote Speaker: Dr. Ellie Cohen</strong></h2>
+<div class="figure">
+<img src="pics/ellie.jpg" />
+
+</div>
+<blockquote>
+<p>Ellie Cohen is the President and CEO of Point Blue Conservation Science since 1999, and is a leader in catalyzing collaborative, nature-based solutions to climate change and environmental degradation. Born in Baltimore, Ellie received her undergraduate degree with honors in Botany from Duke University. Field studies in butterfly ecology brought her to California in 1979. She later received her Master in Public Policy from Harvard University’s Kennedy School of Government, where she was honored with the Policy Analysis Exercise Award for highly distinguished performance and the first annual Robert F. Kennedy Public Service Award. In 2001, she was awarded a fellowship to Stanford Graduate School of Business’ Executive Program for Non-profit Leaders. Ellie is the United Nations Framework Convention on Climate Change (UNFCCC) Observer Organization representative for Point Blue. She is Immediate Past Chair and a Steering Committee member of the CA Landscape Conservation Cooperative, invited member of the SF Bay Area’s Resilient by Design Research Advisory Committee, and co-founder of the Bay Area Ecosystems Climate Change Consortium. She serves on the advisory board of the Oiled Wildlife Care Network and on the board of the TomKat Ranch Educational Foundation. In the past, she served as Chair of both the Central Valley and SF Bay Joint Ventures. Honored to be an invited member of the National Wildlife Federation’s (NWF) Climate-Smart Conservation team, Ellie co-authored the climate-smart principles and the communications chapter in the national “Guide to Climate-Smart Conservation, Putting Adaptation Principles into Practice” (2014). Ellie was honored with the Bay Nature 2012 Environmental Hero Award for her climate change leadership. In 2009, she was named one of “100 Women Taking the Lead to Save Our Planet” in the US (National Women’s History Project). We are very excited to have her as our Keynote Speaker!</p>
+</blockquote>
 <hr />
-<div id="tentative-schedule" class="section level3">
-<h3><strong>Tentative Schedule:</strong></h3>
+</div>
+<div id="tentative-schedule" class="section level2">
+<h2><strong>Tentative Schedule:</strong></h2>
 <p>9:00 - 9:30 Breakfast and Welcome (Breakfast and Coffee provided by Noah’s Bagels)</p>
 <p>9:30 - 12:00 Session 1 + 2</p>
 <p>12:00 - 1:00 Lunch (Provided by Dos Coyotes Mexican - vegan and veggie options available)</p>
@@ -244,10 +352,11 @@ $(document).ready(function () {
 <p>4:00 - 5:00 Pannel Discussion: Barriers to Conservation</p>
 <p>5:30 - ?? Happy/Social Hour at <a href="http://sudwerkbrew.com/">Sudwerks Brewery</a></p>
 </div>
+
+
+
 </div>
-
-
-
+</div>
 
 </div>
 
