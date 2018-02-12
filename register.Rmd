@@ -10,7 +10,6 @@ output:
 
 <br>
 
-
 ## Registration
 
 #### If submitting artwork, please provide the artist name and title of the piece below. Email photo submissions to scb-davis@gmail.com 
@@ -47,7 +46,7 @@ output:
   <option value="Vegan">Vegan</option>
   <option value="Kosher">Kosher</option>
   <option value="Halal">Halal</option>
-  <option value="Gluten-free">Gluten-Free</option>
+  <option value="Gluten-free">Gluten-free</option>
   <option value="None">None</option>
 </select>
 </div>
