@@ -43,12 +43,12 @@ output:
 <div class="select-style">
   <select name="entry.1756681039" id="entry.1756681039">
   <option value="" disabled selected>Dietary Restrictions</option>
-  <option value="Graduate Student">Vegetarian</option>
-  <option value="Undergraduate Student">Vegan</option>
-  <option value="Postdoctoral Researcher">Kosher</option>
-  <option value="Faculty">Halal</option>
-  <option value="Professional">Gluten-Free</option>
-  <option value="Other">None</option>
+  <option value="Vegetarian">Vegetarian</option>
+  <option value="Vegan">Vegan</option>
+  <option value="Kosher">Kosher</option>
+  <option value="Halal">Halal</option>
+  <option value="Gluten-free">Gluten-Free</option>
+  <option value="None">None</option>
 </select>
 </div>
 <br><br>
