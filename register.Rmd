@@ -42,12 +42,12 @@ output:
 <div class="select-style">
   <select name="entry.1756681039" id="entry.1756681039">
   <option value="" disabled selected>Dietary Restrictions</option>
+  <option value="None">None</option>
   <option value="Vegetarian">Vegetarian</option>
   <option value="Vegan">Vegan</option>
-  <option value="Kosher">Kosher</option>
+  <option value="Gluten free">Gluten free</option>
   <option value="Halal">Halal</option>
-  <option value="Gluten-free">Gluten-free</option>
-  <option value="None">None</option>
+  <option value="Kosher">Kosher</option>
 </select>
 </div>
 <br><br>
