@@ -55,7 +55,7 @@ output:
   <textarea rows="15" cols="100" name="entry.1103035403" id="entry.1103035403" placeholder="Presentation Abstract (Only if submitting a talk)"></textarea><br><br>
   <input type="text" name="entry.563259035" id="entry.563259035" size="80" placeholder="Poster Title (Only if submitting a poster)"><br><br>
   <textarea rows="15" cols="100" name="entry.1838853328" id="entry.1838853328" placeholder="Poster Abstract (Only if submitting a poster)"></textarea><br><br>
-  <input type="text" name="entry.1669133587" id="entry.1669133587" size="80" placeholder="Art Submission (Not Required)"><br><br>
+  <input type="text" name="entry.1669133587" id="entry.1669133587" size="80" placeholder="Art Submission (Provide artist's name and the title of the piece)"><br><br>
   <input type="submit" value="Submit">
 </form>
 

@@ -36,4 +36,4 @@ output:
 
 <img src="pics/robb2.png" style="width:20%"> 
 
-###*Sculpture by Robb Blenk*
+###*Sculpture by Rob Blenk*
