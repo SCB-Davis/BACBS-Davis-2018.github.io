@@ -30,7 +30,7 @@ output:
 
 <img src="pics/michael.jpg" style="width:40%"> 
 
-###*Photos by Michael Culshaw-Mauer*
+###*Photos by Michael Culshaw-Maurer*
 
 ***
 
