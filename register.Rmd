@@ -16,7 +16,7 @@ output:
 
 ***
 
-### Required information from all attendees
+**Required information from all attendees**
 
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdSdWwx2QywnGMzaEpCtFDhu_dEQZdNYDuH7REOQLMFKSsPuQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   <input type="text" name="entry.763057343" id="entry.763057343" placeholder="First Name" size="50" required>
@@ -56,18 +56,18 @@ output:
 </div>
 <br>
 
-### Presentation Submissions
+**Presentation Submissions**
 
   <input type="text" name="entry.1402407729" id="entry.1402407729" size="80" placeholder="Presentation Title (Only if submitting a talk)"><br><br>
   <textarea rows="15" cols="100" name="entry.1103035403" id="entry.1103035403" placeholder="Presentation Abstract (Only if submitting a talk)"></textarea>
 <br>
 
-### Poster Submissions 
+**Poster Submissions** 
   
   <input type="text" name="entry.563259035" id="entry.563259035" size="80" placeholder="Poster Title (Only if submitting a poster)"><br><br>
   <textarea rows="15" cols="100" name="entry.1838853328" id="entry.1838853328" placeholder="Poster Abstract (Only if submitting a poster)"></textarea><br>
   
-### Art Submissions 
+**Art Submissions** 
 
   <input type="text" name="entry.1669133587" id="entry.1669133587" size="80" placeholder="Art Submission (Provide artist's name and the title of the piece)"><br><br>
   <input type="submit" value="Submit">
