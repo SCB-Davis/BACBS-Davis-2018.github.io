@@ -14,18 +14,26 @@ output:
 ***
 ##Examples of past UC Davis Ecology graduate student art submissions: 
 
+***
+
 <img src="pics/allison.jpeg" style="width:40%"> 
 
 ###*Pen Drawing by Allison Simler*
+
+***
 
 <img src="pics/nudes.jpg" style="width:40%"> 
 
 ###*Pen and Watercolor by Ken Zillig*
 
+***
+
 <img src="pics/michael.jpg" style="width:40%"> 
 
-###*Photos Michael Culshaw-Mauer*
+###*Photos by Michael Culshaw-Mauer*
 
-<img src="pics/robb2.png" style="width:40%"> 
+***
 
-###*Scupture by Robb Blenk*
+<img src="pics/robb2.png" style="width:20%"> 
+
+###*Sculpture by Robb Blenk*
