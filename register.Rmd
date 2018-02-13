@@ -12,7 +12,9 @@ output:
 
 ## Registration
 
-##### If submitting artwork, please provide the artist name and title of the piece below. Email photo submissions to scb-davis@gmail.com 
+##### If submitting artwork, please provide the artist name and title of the piece below. Email photo submissions to scb-davis@gmail.com <br>
+
+***
 
 ### Required information from all attendees
 
