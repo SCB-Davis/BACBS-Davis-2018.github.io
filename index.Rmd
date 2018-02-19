@@ -10,7 +10,7 @@ output:
 
 <center><img src="pics/logo.png" style="width:25%"> 
 
-<center>##**Hosted by University of California, Davis SCB Chapter**
+<center>##**Hosted by the UC Davis Chapter of the Society for Conservation Biology**
 <center>##**May 12th, 2018**
 <center>##**Geidt Hall, UC Davis Campus**
 ***
