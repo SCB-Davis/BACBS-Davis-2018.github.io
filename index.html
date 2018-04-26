@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -236,8 +238,8 @@ $(document).ready(function () {
 <center>
 <p><img src="pics/logo.PNG" style="width:25%"></p>
 <center>
-<div id="hosted-by-university-of-california-davis-scb-chapter" class="section level2">
-<h2><strong>Hosted by University of California, Davis SCB Chapter</strong></h2>
+<div id="hosted-by-the-uc-davis-chapter-of-the-society-for-conservation-biology" class="section level2">
+<h2><strong>Hosted by the UC Davis Chapter of the Society for Conservation Biology</strong></h2>
 <center>
 </div>
 <div id="may-12th-2018" class="section level2">

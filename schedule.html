@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -339,16 +341,66 @@ div.tocify {
 </blockquote>
 <hr />
 </div>
-<div id="tentative-schedule" class="section level2">
-<h2><strong>Tentative Schedule</strong></h2>
-<p>9:00 - 9:30 Breakfast and Welcome (Breakfast and Coffee provided by Noah’s Bagels)</p>
-<p>9:30 - 12:00 Session 1 + 2</p>
-<p>12:00 - 1:30 Lunch/Poster Session (Provided by Dos Coyotes Mexican - vegan and veggie options available)</p>
-<p>1:30 - 2:30 Keynote Speaker Dr. Ellie Cohen</p>
-<p>2:30 - 3:30 Session 3 + 4</p>
-<p>3:30 - 4:00 Break</p>
-<p>4:00 - 5:00 Pannel Discussion: Barriers to Conservation</p>
-<p>5:30 - ?? Happy/Social Hour at <a href="http://sudwerkbrew.com/">Sudwerks Brewery</a></p>
+<div id="schedule" class="section level2">
+<h2><strong>Schedule</strong></h2>
+<table>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8:30 - 9:00 AM</td>
+<td>Check-in and light refreshments</td>
+</tr>
+<tr class="even">
+<td>9:00 - 9:10 AM</td>
+<td>Opening remarks</td>
+</tr>
+<tr class="odd">
+<td>9:10 - 10:50 AM</td>
+<td>Concurrent talks: Sessions 1 &amp; 2</td>
+</tr>
+<tr class="even">
+<td>10:50 - 11:00 AM</td>
+<td>Coffee Break</td>
+</tr>
+<tr class="odd">
+<td>11:00 - 12:00 PM</td>
+<td>Key Note Speaker: Dr. Ellie Cohen</td>
+</tr>
+<tr class="even">
+<td>12:00 - 1:00 PM</td>
+<td>Lunch</td>
+</tr>
+<tr class="odd">
+<td>1:00 - 2:15 PM</td>
+<td>Panel Discussion: Translating Conservation Science</td>
+</tr>
+<tr class="even">
+<td>2:20 - 3:40 PM</td>
+<td>Concurrent talks: Sessions 3 &amp; 4</td>
+</tr>
+<tr class="odd">
+<td>3:40 - 3:50 PM</td>
+<td>Coffee Break</td>
+</tr>
+<tr class="even">
+<td>3:50 - 4:50 PM</td>
+<td>Concurrent talks: Sessions 5 &amp; 6</td>
+</tr>
+<tr class="odd">
+<td>4:50 - 5:40 PM</td>
+<td>Poster Session</td>
+</tr>
+<tr class="even">
+<td>6:00 - End</td>
+<td>Reception / Fundraiser at <a href="http://www.dunloebrewing.com/">Dunloe Brewing</a></td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
