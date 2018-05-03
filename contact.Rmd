@@ -28,7 +28,7 @@ output:
 >**Emilie Graves: SCB Davis Secretary**
 >Emilie is a 3rd-year PhD student in the Graduate Group in Ecology studying the effects of agricultural pesticides on grassland birds and the conservation management of the Tricolored Blackbird, with an interest in advocating for science-based policy.
 
-<img src="pics/ann2.jpg" style="width:20%"> 
+<img src="pics/ann.png" style="width:20%"> 
 
 >**Ann Holmes: SCB Davis Treasurer**
 >Ann is a second year PhD student in Ecology. She studies fish and other aquatic species using genetic tools. Her research centers on conservation and management questions. In the UC Davis Genomic Variation Lab, she is developing a protocol to monitor an endangered fish using trace DNA in the environment (eDNA).

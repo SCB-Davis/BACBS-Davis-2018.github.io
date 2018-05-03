@@ -1,44 +1,30 @@
 ---
 output: 
   html_document:
-    toc: true
+    toc: false
     toc_depth: 2
-    toc_float: true
+    toc_float: False 
     theme: flatly
 ---
-<br>
-
-###This page will be updated as submissions for posters and talks are recieved. 
-
-***
-
-##**Keynote Speaker: Dr. Ellie Cohen** 
-![](pics/ellie.jpg)
-
->Ellie Cohen is the President and CEO of Point Blue Conservation Science since 1999, and is a leader in catalyzing collaborative, nature-based solutions to climate change and environmental degradation. 
-Born in Baltimore, Ellie received her undergraduate degree with honors in Botany from Duke University. Field studies in butterfly ecology brought her to California in 1979. She later received her Master in Public Policy from Harvard University's Kennedy School of Government, where she was honored with the Policy Analysis Exercise Award for highly distinguished performance and the first annual Robert F. Kennedy Public Service Award. In 2001, she was awarded a fellowship to Stanford Graduate School of Business' Executive Program for Non-profit Leaders.
-Ellie is the United Nations Framework Convention on Climate Change (UNFCCC) Observer Organization representative for Point Blue. She is Immediate Past Chair and a Steering Committee member of the CA Landscape Conservation Cooperative, invited member of the SF Bay Area's Resilient by Design Research Advisory Committee, and co-founder of the Bay Area Ecosystems Climate Change Consortium. She serves on the advisory board of the Oiled Wildlife Care Network and on the board of the TomKat Ranch Educational Foundation. In the past, she served as Chair of both the Central Valley and SF Bay Joint Ventures.
-Honored to be an invited member of the National Wildlife Federation’s (NWF) Climate-Smart Conservation team, Ellie co-authored the climate-smart principles and the communications chapter in the national “Guide to Climate-Smart Conservation, Putting Adaptation Principles into Practice” (2014).
-Ellie was honored with the Bay Nature 2012 Environmental Hero Award for her climate change leadership. In 2009, she was named one of "100 Women Taking the Lead to Save Our Planet" in the US (National Women's History Project). We are very excited to have her as our Keynote Speaker! 
 
 
-***
+*Check back for updates on talk schedule soon!*
 
 ##**Conference Schedule**
 
 Time              | Event
 ----------------- | -----------------------------------
-8:30 - 9:00 AM    | Check-in and light refreshments
+8:30 - 9:00 AM    | Check-in and light refreshments (Free)
 9:00 - 9:10 AM    | Opening remarks 
-9:10 - 10:50 AM   | Concurrent talks: Sessions 1 & 2
-10:50 - 11:00 AM  | Coffee Break
+9:10 - 10:30 AM   | Research Talks: Session 1
+10:30 - 11:00 AM  | Coffee Break
 11:00 - 12:00 PM  | Key Note Speaker: Dr. Ellie Cohen
-12:00 - 1:00 PM   | Lunch
+12:00 - 1:00 PM   | Lunch (Free)
 1:00 - 2:15 PM    | Panel Discussion: Translating Conservation Science
-2:20 - 3:40 PM    | Concurrent talks: Sessions 3 & 4
-3:40 - 3:50 PM    | Coffee Break
-3:50 - 4:50 PM    | Concurrent talks: Sessions 5 & 6
-4:50 - 5:40 PM    | Poster Session
+2:30 - 3:30 PM    | Research Talks: Session 2
+3:30 - 3:40 PM    | Coffee Break
+3:40 - 4:40 PM    | Research Talks: Session 3
+4:40 - 5:30 PM    | Poster Session
 6:00 - End        | Reception / Fundraiser at [Dunloe Brewing](http://www.dunloebrewing.com/)  
 
 
