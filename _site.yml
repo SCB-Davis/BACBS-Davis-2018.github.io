@@ -13,6 +13,8 @@ navbar:
           href: art.html
     - text: "Schedule"
       href: schedule.html
+    - text: "Speakers"
+      href: speakers.html
     - text: "Getting to Davis"
       icon: "fas fa-car"
       href: directions.html
