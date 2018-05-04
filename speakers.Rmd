@@ -9,7 +9,7 @@ output:
 <br>
 
 ##**Keynote Speaker: Dr. Ellie Cohen** 
-![](pics/ellie.jpg)
+![](pics/ellie.jpg) 
 
 >Ellie Cohen is the President and CEO of Point Blue Conservation Science since 1999, and is a leader in catalyzing collaborative, nature-based solutions to climate change and environmental degradation. 
 Born in Baltimore, Ellie received her undergraduate degree with honors in Botany from Duke University. Field studies in butterfly ecology brought her to California in 1979. She later received her Master in Public Policy from Harvard University's Kennedy School of Government, where she was honored with the Policy Analysis Exercise Award for highly distinguished performance and the first annual Robert F. Kennedy Public Service Award. In 2001, she was awarded a fellowship to Stanford Graduate School of Business' Executive Program for Non-profit Leaders.
