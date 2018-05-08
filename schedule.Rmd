@@ -8,7 +8,13 @@ output:
 ---
 <br>
 
-*Check back for updates on talk schedule soon!*
+If the embedded schedule is not displaying properly, you [can download the PDF](/pdfs/schedule_BACBS2018.pdf). 
+
+<object data="/pdfs/schedule_BACBS2018.pdf" type="application/pdf" width="800px" height="800px">
+    <embed src="/pdfs/schedule_BACBS2018.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="/pdfs/schedule_BACBS2018.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ##**Conference Schedule**
 
