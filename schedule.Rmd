@@ -8,25 +8,11 @@ output:
 ---
 <br>
 
-*Check back for updates on talk schedule soon!*
+If the embedded schedule is not displaying properly, you [can download the PDF](/pdfs/schedule_BACBS2018.pdf). 
 
-##**Conference Schedule**
-
-Time              | Event
------------------ | -----------------------------------
-8:30 - 9:00 AM    | Check-in and light refreshments (Free)
-9:00 - 9:10 AM    | Opening remarks 
-9:10 - 10:30 AM   | Research Talks: Session 1
-10:30 - 11:00 AM  | Coffee Break
-11:00 - 12:00 PM  | Key Note Speaker: Dr. Ellie Cohen
-12:00 - 1:00 PM   | Lunch (Free)
-1:00 - 2:15 PM    | Panel Discussion: Translating Conservation Science
-2:30 - 3:30 PM    | Research Talks: Session 2
-3:30 - 3:40 PM    | Coffee Break
-3:40 - 4:40 PM    | Research Talks: Session 3
-4:40 - 5:30 PM    | Poster Session
-6:00 - End        | Reception / Fundraiser at [Dunloe Brewing](http://www.dunloebrewing.com/)  
-
-
-
+<object data="/pdfs/schedule_BACBS2018.pdf" type="application/pdf" width="800px" height="800px">
+    <embed src="/pdfs/schedule_BACBS2018.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="/pdfs/schedule_BACBS2018.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
