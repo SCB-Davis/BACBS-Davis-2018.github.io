@@ -8,11 +8,11 @@ output:
 ---
 <br>
 
-If the embedded schedule is not displaying properly, you [can download the PDF](/pdfs/schedule_BACBS2018.pdf). 
+If the embedded schedule is not displaying properly, you [can download the PDF](/pdf/2018_program.pdf). 
 
-<object data="/pdfs/schedule_BACBS2018.pdf" type="application/pdf" width="800px" height="800px">
-    <embed src="/pdfs/schedule_BACBS2018.pdf">
-        This browser does not support PDFs. Please download the PDF to view it: <a href="/pdfs/schedule_BACBS2018.pdf">Download PDF</a>.</p>
+<object data="/pdfs/2018_program.pdf" type="application/pdf" width="800px" height="800px">
+    <embed src="/pdfs/2018_program.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="/pdfs/2018_program.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
